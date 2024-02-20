@@ -7,7 +7,7 @@ function App() {
       <div className="w-full flex items-center justify-center lg:w-1/2">
         <Form />
       </div>
-      <div className="hidden relative lg:flex h-full w-1/2 items-center justify-center bg-gray-200 ">
+      <div className="hidden relative lg:flex h-full w-1/2 items-center justify-center bg-yellow-500 ">
         <div className="w-60 h-60   ">
           <img src={logo} alt="logo " className="animate-bounce rounded-full"></img>
         </div>
