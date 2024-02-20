@@ -18,7 +18,9 @@ function Form() {
         </div>
 
         <div className="mt-8 flex flex-col gap-y-4">
-          <button className="bg-yellow-500 text-sky-950 text-lg font-bold rounded-xl border-2 border-gray-200 py-2">Login</button>
+          <button className="active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all bg-yellow-500 text-sky-950 text-lg font-bold rounded-xl border-2 border-gray-200 py-3 ">
+            Login
+          </button>
         </div>
       </div>
     </div>
