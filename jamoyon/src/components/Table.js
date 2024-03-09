@@ -72,12 +72,12 @@ const data = [
 ];
 function Table() {
   return (
-    <div className=" backdrop-blur-xl px-2 py-15 rounded-3xl ">
+    <div className=" backdrop-blur-xl px-2 py-15 rounded-3xl w-full ">
       <h3 className="text-4xl text-yellow-600  text-center pb-10 font-extrabold">
         Data<span className="text-3xl text-indigo-950  text-center mb-10 font-extrabold">Stock</span>Jam
       </h3>
 
-      <div className="bg-white rounded-3xl  border-2 px-5 py-30 ">
+      <div className=" rounded-3xl  border-2 px-5 py-30 ">
         <DataTable columns={columns} data={data} />
       </div>
     </div>

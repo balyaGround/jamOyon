@@ -161,7 +161,7 @@ export default function Dashboard() {
           <div className="mx-auto sm:px-6 lg:px-20">
             <div>
               <container className="w-full flex bg-slate-50   rounded-3xl border-2 ">
-                <div className="mx-auto max-w-full  py-10 sm:px-6 lg:px-8">
+                <div className="mx-auto flex-grow  py-10 sm:px-6 lg:px-8">
                   <Table />
                 </div>
               </container>
